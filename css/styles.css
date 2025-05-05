@@ -1,0 +1,27 @@
+body  {
+	background-color:lightblue;
+	height: 100hv;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.container {
+	background-color: rgb(183, 253, 204);
+	width: 300px;
+	height: 300px;
+	overflow-y: scroll;
+	border: 10px solid #ff000040;
+	border-radius: 20px;
+	box-shadow: 20px 20px 80px #33002270;
+
+}
+
+.container {
+	box-shadow: 0px 0px 50px #33002270;
+}
+
+h2 {
+	text-align: center;
+}
