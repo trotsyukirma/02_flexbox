@@ -9,6 +9,7 @@ body  {
 
 .container {
 	background-color: rgb(183, 253, 204);
+	font-style: italic;
 	width: 300px;
 	height: 300px;
 	overflow-y: scroll;
@@ -22,6 +23,15 @@ body  {
 
 .container {
 	box-shadow: 0px 0px 50px #33002270;
+}
+
+.image_container {
+	text-align: center;
+}
+
+.image_container {
+width: 50px;
+height: auto;
 }
 
 h2 {
