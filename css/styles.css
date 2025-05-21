@@ -77,5 +77,36 @@ h2 {
 }
 
 .tag-title {
-	
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	height: 100px;
+	border: #fac7e970;
+	border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.tag-container:hover .tag-description {
+	display: inline-block;
+	animation: slideInFromRight 0.5s ease-out;
+}
+
+@keyframes slideInFromRight {
+	from {
+		transform: translateX(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0%);
+		opacity: 1;
+	}
+}
+
+.tag-description {
+	display: none;
+	text-align: left;
+
 }
