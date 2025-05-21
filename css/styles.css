@@ -1,15 +1,27 @@
 body  {
+	font-family: Arial, Helvetica, sans-serif;
 	background-color:lightblue;
 	height: 100hv;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
 }
 
+section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	width: 100%;
+	height: 100vh;
+}
+
 .container {
 	background-color: rgb(183, 253, 204);
-	font-style: italic;
+	padding: 5px;
 	width: 300px;
 	height: 300px;
 	overflow-y: scroll;
@@ -17,11 +29,10 @@ body  {
 	border-radius: 20px;
 	box-shadow: 20px 20px 80px #33002270;
 	transition: all 2s ease;
-	padding: 5px;
 
 }
 
-.container {
+.container:hover {
 	box-shadow: 0px 0px 50px #33002270;
 }
 
@@ -32,6 +43,12 @@ body  {
 .image_container {
 width: 50px;
 height: auto;
+}
+
+.image_container img {
+	width: 128px;
+	height: 128px;
+	border-radius: 20px;
 }
 
 h2 {
